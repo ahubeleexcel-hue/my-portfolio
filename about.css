@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #151A17;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page{
+    max-width: 850px;
+    margin: auto;
+    padding: 100px 30px;
+    text-align: center;
+    flex: 1;
+}
+
+.about-page span{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #D9E4DC;
+}
+
+.about-page h1{
+    font-size: 52px;
+    margin: 20px 0 40px;
+    color: white;
+}
+
+.about-page p{
+    font-size: 18px;
+    line-height: 1.9;
+    color: #C7D0CA;
+    margin-bottom: 30px;
+}
+
+.back-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    background-color: white;
+    color: #151A17;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.back-button:hover{
+    background-color: #C7D0CA;
+    transform: translateY(-3px);
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #39453D;
+    background-color: #111713;
+}
+
+footer p{
+    font-size: 14px;
+    color: white;
+    opacity: 0.6;
+}
+
+@media(max-width:768px){
+
+    .about-page{
+        padding: 70px 20px;
+    }
+
+    .about-page span{
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .about-page h1{
+        font-size: 38px;
+        margin: 20px 0 30px;
+    }
+
+    .about-page p{
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .back-button{
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+
+    footer{
+        padding: 15px;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+}
